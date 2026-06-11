@@ -1,5 +1,5 @@
-# Cryptocurrency Price Ticker v1.0.2
-Windows taskbar DeskBand — displays live crypto prices.
+# Cryptocurrency Price Ticker v1.0.3
+Windows 10 taskbar DeskBand — displays live crypto prices.
 
 ## Build
 1. Open DeskBand.sln in Visual Studio 2019/2022
