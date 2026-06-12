@@ -2,7 +2,7 @@
 Windows 10 taskbar DeskBand — displays live crypto prices.
 
 ## Build
-1. Open DeskBand.sln in Visual Studio 2019/2022
+1. Open DeskBand.vcxproj in Visual Studio 2019/2022
 2. Select Release | x64
 3. Ctrl+Shift+B
 4. Output: x64\Release\DeskBand.dll
