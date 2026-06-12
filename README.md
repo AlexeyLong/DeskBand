@@ -52,3 +52,6 @@ Right-clicking the Windows taskbar.
 Selecting Toolbars.
 Clicking Cryptocurrency Price Ticker.
 The ticker will appear directly on the taskbar and start displaying live cryptocurrency prices.
+
+## Screenshot
+![Screenshot](Screenshot.png)
