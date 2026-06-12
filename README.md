@@ -40,3 +40,15 @@ Right-click the ticker to access settings:
 - If connection fails, ticker shows "Refreshing..." until next successful fetch
 - All settings saved to HKCU\Software\CryptoPriceTicker
 - After rebuilding: regsvr32 /u old DLL first, then regsvr32 new DLL
+
+## Windows 10 installation
+
+Cryptocurrency Price Ticker is distributed as a ready-to-use Windows installer (.exe).
+
+Download the latest CryptocurrencyPriceTicker-1.0.3-Setup.exe release.
+Run the installer and follow the installation wizard.
+After installation, enable the ticker by:
+Right-clicking the Windows taskbar.
+Selecting Toolbars.
+Clicking Cryptocurrency Price Ticker.
+The ticker will appear directly on the taskbar and start displaying live cryptocurrency prices.
