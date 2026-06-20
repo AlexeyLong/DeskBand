@@ -55,3 +55,24 @@ The ticker will appear directly on the taskbar and start displaying live cryptoc
 
 ## Screenshot
 ![Screenshot](Screenshot.png)
+
+## Changelog
+
+CryptoPriceTicker-1.0.4-x64-Setup.exe
+Added: 24h Price Change Display
+
+The ticker now shows the percentage price change over the last 24 hours directly alongside the current price.
+Display format: BTC $108,450  +3.45%
+Color indicators:
+```
+ wchar_t buf[32];
+ if      (m_change24h > 0.0) { clrChg = RGB(50, 220, 50);  swprintf_s(buf, L"  +%.2f%%", m_change24h); }
+ else if (m_change24h < 0.0) { clrChg = RGB(255, 61, 48);  swprintf_s(buf, L"  %.2f%%",  m_change24h); }
+ else                        { clrChg = RGB(255, 255, 255); wcscpy_s(buf, L"  0%"); }
+ strChg = buf;
+```
+Data source: Binance Spot Public API — endpoint /api/v3/ticker/24hr
+The 24h change percentage is sourced exclusively from Binance Spot and is calculated from 00:00 UTC of the current day. This data is fetched independently from the selected price provider (CoinGecko / Binance Futures / OKX), ensuring the change percentage is always accurate and consistent regardless of which market data source is selected for the main price feed.
+
+## Screenshot
+![Screenshot](Screenshot_01.png)
