@@ -73,7 +73,6 @@ Color indicators:
 ```
 Data source: Binance Spot Public API — endpoint /api/v3/ticker/24hr
 The 24h change percentage is sourced exclusively from Binance Spot and is calculated from 00:00 UTC of the current day. This data is fetched independently from the selected price provider (CoinGecko / Binance Futures / OKX), ensuring the change percentage is always accurate and consistent regardless of which market data source is selected for the main price feed.
-Download the latest CryptoPriceTicker-1.0.4-x64-Setup.exe release
 
 ## Screenshot
 ![Screenshot](Screenshot_01.png)
