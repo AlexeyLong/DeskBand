@@ -56,13 +56,14 @@ The ticker will appear directly on the taskbar and start displaying live cryptoc
 ## Screenshot
 ![Screenshot](Screenshot.png)
 
-## Changelog
+# Crypto Price Ticker v1.0.4
 
 CryptoPriceTicker-1.0.4-x64-Setup.exe
 Added: 24h Price Change Display
 
 The ticker now shows the percentage price change over the last 24 hours directly alongside the current price.
 Display format: BTC $108,450  +3.45%
+
 Color indicators:
 ```
  wchar_t buf[32];
