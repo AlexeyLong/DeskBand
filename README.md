@@ -1,5 +1,5 @@
 # Cryptocurrency Price Ticker v1.0.3
-Windows 10 taskbar DeskBand — displays live crypto prices.
+A lightweight, native Windows 10 system tray application written in C++ that provides real-time cryptocurrency monitoring directly in your taskbar. Keep track of live Bitcoin (BTC) quotes, major crypto assets, and 24-hour percentage changes at a glance without opening a heavy browser tab or separate desktop window. 
 
 ## Build
 1. Open DeskBand.sln in Visual Studio 2019/2022
