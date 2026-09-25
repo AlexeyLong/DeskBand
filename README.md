@@ -1,4 +1,11 @@
 # Cryptocurrency Price Ticker v1.0.3
+
+![Version](https://img.shields.io/badge/version-v1.0.4-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-0078d7)
+![Language](https://img.shields.io/badge/language-C%2B%2B-f34b7d)
+![Repository Size](https://img.shields.io/github/repo-size/AlexeyLong/DeskBand)
+![Last Commit](https://img.shields.io/github/last-commit/AlexeyLong/DeskBand)
+
 A lightweight, native Windows 10 system tray application written in C++ that provides real-time cryptocurrency monitoring directly in your taskbar. Keep track of live Bitcoin (BTC) quotes, major crypto assets, and 24-hour percentage changes at a glance without opening a heavy browser tab or separate desktop window. 
 
 ## Build
